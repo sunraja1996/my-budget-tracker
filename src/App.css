@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ *{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    
+    body {
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2f4858;
+    color: black;
+    }
+    
 
-.App-link {
-  color: #61dafb;
-}
+    
+    .headerBar {
+    background-color: #01fbb7;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    }
+    
+    .title {
+    margin-bottom: 20px;
+    color: rgb(34, 34, 34);
+    }
+    
+    .topbar {
+    margin-bottom: 10px;
+    }
+    
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    
+    .currency,
+    .balance {
+    font-size: 30px;
+    font-weight: 300;
+    }
+    
+
+    
+    .content {
+    width: 580px;
+    margin: 0 auto;
+    padding: 3% 6%;
+    border-radius: 10px;
+    }
+    
+    .secondTitle {
+    background-color: #00d7bc;
+    color: rgb(0, 23, 65);
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    }
+    
+
+    
+    .form {
+    padding: 20px 10% 5px;
+    justify-content: center;
+    background-color: #d9f3ff;
+    }
+    
+    .formLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    }
+    
+    .left {
+    margin-right: auto;
+    }
+    
+    .right {
+    margin-left: auto;
+    margin-right: 100px;
+    }
+    
+    input,
+    select {
+    width: 130px;
+    margin-left: 10px;
+    }
+    
+
+    
+    table {
+    width: 100%;
+    }
+    
+    thead {
+    background-color: #fcb41c;
+    color: rgb(39, 39, 39);
+    line-height: 30px;
+    }
+    
+    tbody {
+    background-color: bisque;
+    line-height: 30px;
+    text-align: center;
+    }
+    
+
+    
+    button {
+    width: 200px;
+    color: #222222;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 20px;
+    background-color: #fcb41c;
+    border-radius: 15px;
+    margin: 14px 25%;
+    cursor: pointer;
+    font-weight: 600;
+    }
+    
+  
+    
+
+    
+    a {
+    text-decoration: underline;
+    cursor: pointer;
+    }
